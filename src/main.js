@@ -36,3 +36,7 @@ connectDB()
 //         throw error
 //     }
 // })()
+
+app.get('/', (req, res) => {
+    res.send('Hello')
+})
